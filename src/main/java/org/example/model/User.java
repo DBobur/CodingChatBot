@@ -2,7 +2,7 @@ package org.example.model;
 
 
 import lombok.*;
-import org.example.UserState;
+import org.example.enums.UserState;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -14,5 +14,6 @@ public class User extends BaseModel {
     private Long chatId;
     private String firstName;
     private String lastName;
+    private String username;
     private UserState state;
 }
